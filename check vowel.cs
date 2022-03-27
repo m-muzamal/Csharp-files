@@ -16,7 +16,7 @@ namespace switch_statment
                 Console.Write("\nEnter an alphabet: ");
                 alphabet = Convert.ToChar(Console.ReadLine());
 
-                switch (Char.ToLower(alphabet))
+                switch (alphabet)
                 {
                     case 'a':
                     case 'e':
